@@ -13,7 +13,7 @@ body {
     font-style: normal;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 
 header {
@@ -28,9 +28,9 @@ header {
     height: auto;
 }
 
-header h1{
+/* header h1{
     width: 2500px;
-}
+} */
 
 table {
     border: 0px;
@@ -68,6 +68,7 @@ button {
 .container {
     text-align: center;
     display: flex;
+    justify-content: center;
 }
 
 #div_game {
@@ -98,6 +99,10 @@ button {
     margin: auto;
     margin-top: 8px;
     align-self: center;
+}
+
+.div_button{
+    display: flex;
 }
 
 #input_answer {
@@ -185,7 +190,7 @@ input {
 footer {
     height: 85px;
     text-align: center;
-    background-color: #381437;
+    background-color: #1c0a1c;
     color: #000;
     font-size: 15px;
     font-weight: bold;
